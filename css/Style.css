@@ -54,32 +54,13 @@ header {
     font-family: var(--fonte-destaque);
     min-width: 150px;
     text-align: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    margin: auto;
+    
     
 }
 
-header > h1 {
-    color: white;
-    margin-bottom: 20px;
-    font-size: 3em;
-    margin-bottom: 20px;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.549);
-}
 
-header > p {
-    color:white;
-    font-family: var(--fonte-padrao);
-    font-size: 1.2em;
-    max-width: 600px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    margin: auto;
-    margin-bottom: 30px; 
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.558);
 
-}
 
 nav {
     background-color: var(--cor0);

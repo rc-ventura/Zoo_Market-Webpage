@@ -1,0 +1,92 @@
+
+
+:root {
+    --cor0: #0AA67F;;
+    --cor1: #21A663;
+    --cor2: #408F38;
+    --cor3: #2941A8;
+    --cor4: #CCC53B;
+    --cor5: #18fac2c5;
+
+    --fonte-padrao: Arial,Verdana,Helvetica, sans-serif;
+    --fonte-destaque:  'Bebas Neue', 'Dancing Script', 'Silkscreen';
+    --fonte-alt: "Okina";
+}
+
+    header {
+        background-image: linear-gradient(to left, var(--cor4), var(--cor0));
+        font-family: var(--fonte-destaque);
+        min-width: 150px;
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        
+        
+    }
+    
+    nav {
+        background-color: var(--cor0);
+        padding: 10px;
+        box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.544);
+    }
+    
+    nav > a {
+        color: white;
+        padding: 5px;
+        margin-top:  30px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+        
+    }
+    
+    nav > a:hover {
+        background-color: var(--cor4);
+    }
+
+    .produtos li {
+        display: inline-block;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .produtos img {
+
+        border-radius: 20px;
+    }
+
+    .produtos h2 {
+
+        font-size: 30px;
+        font-weight: bolder;
+        font-family: var(--fonte-alt);
+        
+    }
+
+    .produtos a:hover {
+        background-color: var(--cor4);
+        border-radius: 20px;
+    }
+
+
+    footer {
+        background-color: var(--cor2);
+        color: white;
+        text-align: center;
+        font-size: 1em;
+        padding-bottom: 1px;
+    }
+    
+    footer  a {
+        color: white;
+        font-weight: bolder;
+        text-decoration: none;
+        text-align: center;
+         
+        
+    }
+    
+    footer a:hover {
+        text-decoration: underline;
+        color: var(--cor4);
+    }

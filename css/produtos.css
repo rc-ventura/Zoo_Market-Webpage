@@ -13,7 +13,14 @@
     --fonte-alt: "Okina";
 }
 
-    header {
+
+
+    body {
+    background-color:#cdff5764;
+    font-family: var(--fonte-padrao);
+}
+   
+header {
         background-image: linear-gradient(to left, var(--cor4), var(--cor0));
         font-family: var(--fonte-destaque);
         min-width: 150px;

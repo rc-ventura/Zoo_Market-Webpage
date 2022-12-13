@@ -52,7 +52,6 @@ a.externo::after {
 header {
     background-image: linear-gradient(to left, var(--cor4), var(--cor0));
     font-family: var(--fonte-destaque);
-    min-width: 150px;
     text-align: center;
     margin: auto;
     
@@ -60,7 +59,12 @@ header {
 }
 
 
+.banner {
 
+    margin:auto;
+    width: 100%;
+    height: auto;
+}
 
 nav {
     background-color: var(--cor0);
@@ -83,14 +87,8 @@ nav > a:hover {
 }
 
 
-.dogs {
-width: 84.2%;
-
-}
 
 main {
-    min-width: 300px;
-    max-width: 1000px;
     margin: auto;
     padding: 20px;
     margin-bottom: 30px;

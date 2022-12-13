@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="/css/fale_conosco.css">
+
+</head>
+
+<body>
+    <Header>
+        <h1> <img src="../assets/ZooMarket/PNG/zoo_market.png  " alt="logo Zoo Market" width="200px" height="150px">
+        </h1>
+
+
+    </Header>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="pages/">Quem Somos</a>
+        <a href="/pages/produtos.html">Produtos</a>
+        <a href="#">Blog</a>
+        <a href="pages/fale_conosco.html">Fale Conosco</a>
+    </nav>
+
+    <main>
+
+        <form>
+            <label for="nome"> Nome </label>
+            <input type="text" id="nome" class="input-padrao" required>
+
+            <label for="sobrenome"> Sobrenome </label>
+            <input type="text" id="sobrenome" class="input-padrao" required>
+
+            <label for="nomePet"> Nome do Pet </label>
+            <input type="text" id="nomePet" class="input-padrao">
+
+            <label for="email"> Email </label>
+            <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+            <label for="telefone"> Telefone </label>
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+            <fieldset>
+                <legend> Como prefere o nosso contato?</legend>
+
+                <label for="radio-email"> <input type="radio" name="contato" value="email" id="radio-email">
+                    Email</label>
+
+                <label for="radio-telefone"> <input type="radio" name="contato" value="telefone" id="radio-telefone">
+                    Telefone</label>
+
+                <label for="radio-whatsapp"> <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp"
+                        checked>
+                    Whatsapp</label>
+            </fieldset>
+
+            <fieldset>
+                <!-- Dentro de um formulário por exemplo não usamos div ou p e sim filedset e legend respectivamente para conotar que estamos falando de dados do mesmo contexto. Assim semânticamente fica melhor apresentado.-->
+
+                <legend> Qual horário prefere ser atendido?</legend>
+                <select>
+                    <option> Manhã </option>
+                    <option> Tarde </option>
+                    <option> Noite </option>
+
+
+
+                </select>
+
+                <!-- MOBILEINPUTTYPES.COM   é u msite que demonstra como os inputs modificam para o celular. Por exemplo colocando um input type = email o teclado do celular modifica para email ou input type telefone, muda para um teclado numérico e etc-->
+
+            </fieldset>
+
+            <label> <input type="checkbox" class="checkbox" checked> Gostaria de receber nossas novidades por
+                email?</label>
+
+            <input type="submit" value="Enviar Formulário" id="submit" class="enviar">
+
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th> Dia </th>
+                    <th> Horário </th>
+
+            </thead>
+            <tbody>
+
+                </tr>
+
+                <tr>
+                    <td> Segunda </td>
+                    <td> 8h ~ 18h </td>
+
+
+                </tr>
+
+                <tr>
+                    <td> Quarta </td>
+                    <td> 8h ~ 18h </td>
+
+
+                </tr>
+
+                <tr>
+                    <td> Sexta </td>
+                    <td> 8h ~ 18h </td>
+
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </main>
+
+
+
+
+
+    <footer>
+
+
+        <p> Site criado por <a href="https://github.com/rc-ventura" target="_blank">Rafael Ventura</a> </p>
+
+
+    </footer>
+</body>
+
+</html>

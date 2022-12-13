@@ -39,9 +39,6 @@ header {
         
     }
     
-
-
-
     nav {
         background-color: var(--cor0);
         padding: 10px;
@@ -62,68 +59,86 @@ header {
         background-color: var(--cor4);
     }
 
-    .produtos li {
-        display: inline-block;
-        padding: 20px;
-        text-align: center;
-    }
-
-    .produtos img {
-
-        border-radius: 20px;
-    }
-
-    .produtos h2 {
-
-        font-size: 25px;
-        font-weight: bolder;
-        font-family: var(--fonte-alt);
-        
-    }
-
-    .produtos p {
-
-        font-size: 25px;
-        font-weight: bolder;
-        
-
-    }
-
     
+    main {
 
-    
+        width: 940px;
+        margin: 0;
+    }
 
-    .produtos button {
+    .input-padrao  {
+        
+        margin-top: 5px;
+        margin-bottom: 10px;
+        display: block;
+        padding: 10px 25px;
+        width: 50%;
+    }
 
-        width: 200px;
-        border-radius: 20px;
-        height: 30px;
+    form {
+
+        max-width: 40px 0px;
+    }
+
+    form label, form legend {
+        margin-top: 10px;
+        padding: 5px;
+        display: block;
+    }
+
+    .checkbox {
+
+        margin: 20px 0px;
+
+    }
+
+    .enviar {
+        width: 40%;
+        padding: 15px 0 ;
         background-color: #0AA67F;
-        font: var(--fonte-destaque);
         color: white;
-        font-weight: bolder;
+        font-weight: bold;
+        font-size: 18px;
+        border-radius:5px ;
+        border: none;
+        cursor: pointer;
+        transition: 1s all;
+
+
+    }
+
+    .enviar:hover {
+
+        background: #408F38;
+        transform: scale(1.2);
         
-    }
 
-    .produtos button:hover {
-
-        background-color: var(--cor4);
-
+        
 
     }
+
+    table {
+
+        margin: 20px o 40px;
+
+    }
+
+    thead {
+
+        background: #21A663;
+        font-weight: bold;
+        color: white;
+    }
+
+    td, th {
+
+        border: 1px solid black;
+        padding: 8px 15px;
+
+    }
+
     
-    .produtos li:hover p  {
-
-        font-size: 40px;
-
-    }
-
-    
-
-    .produtos a:hover {
-        background-color: var(--cor4);
-        border-radius: 20px;
-    }
+  
 
     footer {
         background-color: var(--cor2);

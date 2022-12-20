@@ -16,8 +16,8 @@
 
 
     body {
-    background-color:#cdff5764;
-    font-family: var(--fonte-padrao);
+        background: radial-gradient(#cdff5764, #ffffff);
+        font-family: var(--fonte-padrao);
 }
    
 header {
@@ -81,7 +81,7 @@ header {
         color: white;
         text-align: center;
         font-size: 1em;
-        padding-bottom: 1px;
+        padding: 2px;
     }
     
     footer  a {

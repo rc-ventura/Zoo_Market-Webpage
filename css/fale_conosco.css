@@ -12,7 +12,7 @@
 }
 
 body {
-    background-color:#cdff5764;
+    background: linear-gradient(#cdff5764, #ffffff);
     font-family: var(--fonte-padrao);
 }
 
@@ -62,7 +62,7 @@ header {
     
     main {
 
-        width: 940px;
+        width: auto;
         margin: 0;
     }
 
@@ -77,7 +77,9 @@ header {
 
     form {
 
-        max-width: 40px 0px;
+        max-width: 20px 0px;
+        margin: 20px;
+        
     }
 
     form label, form legend {
@@ -119,7 +121,7 @@ header {
 
     table {
 
-        margin: 20px o 40px;
+        margin: 40px 20px 40px;
 
     }
 
@@ -145,7 +147,7 @@ header {
         color: white;
         text-align: center;
         font-size: 1em;
-        padding-bottom: 1px;
+        padding: 2px;
     }
     
     footer  a {

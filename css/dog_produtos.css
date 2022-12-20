@@ -130,7 +130,7 @@ header {
         color: white;
         text-align: center;
         font-size: 1em;
-        padding-bottom: 1px;
+        padding: 2px;
     }
     
     footer  a {
